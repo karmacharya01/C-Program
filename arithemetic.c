@@ -4,13 +4,14 @@ int main()
     printf("Kritish Karmacharya\n"); 
 
     // wap using the arithemetiical operator
-    float a, b, sum, sub, mul, div;
+    int a, b, sum, sub, mul;
+    float div;
 
     // Input numbers
     printf("Enter first number: ");
-    scanf("%f", &a);
+    scanf("%d", &a);
     printf("Enter second number: ");
-    scanf("%f", &b);
+    scanf("%d", &b);
 
     // Perform operations
     sum = a + b;
